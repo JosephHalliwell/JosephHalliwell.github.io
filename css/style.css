@@ -1,16 +1,48 @@
-main nav ul {
+body{
+	margin: 0px;
+	padding: 0px;
+	
+
+background: url(../images/jh.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+
+
+
+nav{
+	background-color: skyblue;
+	display: inline-block;
+	width: 30%;
+	height: 800px;
+	margin-right: -4px;
+
+}
+main {
+	width: 69%;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+nav ul {
 	padding: 0px;
 	margin: 0px;
 	list-style-type: none;
 	
 }
 
-main nav ul li{
+nav ul li{
 	color: white;
 	background-color: orange;
 	text-align: center;
 	margin: 10px;
 	font-family: 'Oxygen', sans-serif;
+	font-size: 20px;
 	height: 80px;
 }
 
@@ -33,7 +65,7 @@ header ul li {
 		font-family: 'Passion One', cursive;
 	font-size: 50px;
 	color: white;
-	padding: 10 20 20 90px; 
+	padding-left: 10px; 
 
 }
 #social {
@@ -41,6 +73,44 @@ header ul li {
 	display: inline-block;
 }
 
-article img {
-	
+article ul li{
+	display: inline-block; 
+	padding-left: 275px;
+	list-style-type: none;
+	margin: 10px auto;
+	padding: 10px;
+	min-width: 200px;
+	max-width: 300px;
+
 }
+
+#subheading {
+	display: inline-block;
+	color: white;
+	padding-left: 4px;
+}
+
+main section {
+	background-color: orange;
+	width: 100%;
+	font-family: 'Passion One', cursive;
+	font-size: 30px;
+	padding-right: 20%;
+}
+
+#lightbox{
+	background-color: orange;
+	padding: 10px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+	color: white; 
+	}
+#lightboxDetails{
+	font-size: 0.8em;
+	padding-top: 0.4em;
+	}	
+#lightboxCaption{ float: left; }
+#keyboardMsg{ float: right; }
+
+#lightbox img{ border: none; } 
+#overlay img{ border: none; }
