@@ -1,0 +1,108 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	
+
+background: url(../images/jh.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+
+
+
+nav{
+	background-color: skyblue;
+	display: inline-block;
+	width: 30%;
+	height: 800px;
+	margin-right: -4px;
+
+}
+main {
+	width: 69%;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+nav ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	
+}
+
+nav ul li{
+	color: white;
+	background-color: orange;
+	text-align: center;
+	margin: 10px;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 20px;
+	height: 80px;
+	}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+header {
+	background-color: royalblue;   
+}
+
+
+
+header ul li {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	width: 30%;
+	display: inline-block;
+}
+#title {
+	width: 70%;
+	display: inline-block;
+		font-family: 'Passion One', cursive;
+	font-size: 50px;
+	color: white;
+	padding-left: 10px; 
+
+}
+#social {
+	width: 28%;
+	display: inline-block;
+}
+
+article ul li{
+	display: inline-block; 
+	padding-left: 275px;
+	list-style-type: none;
+	margin: 10px auto;
+	padding: 10px;
+	min-width: 200px;
+	max-width: 300px;
+	color: white;
+	font-family: 'Passion One', cursive;
+	font-size: 20px;
+
+}
+
+#subheading {
+	display: inline-block;
+	color: white;
+	padding-left: 4px;
+}
+
+main section {
+	background-color: orange;
+	width: 100%;
+	font-family: 'Passion One', cursive;
+	font-size: 30px;
+	padding-right: 20%;
+
+
+
